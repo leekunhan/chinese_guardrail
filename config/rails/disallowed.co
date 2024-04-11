@@ -1,0 +1,230 @@
+define user ask about cooking
+  "我可以怎麼煮義大利麵?"
+  "義大利麵要煮多久?"
+  "How can I cook pasta?"
+  "How much do I have to boil pasta?"
+
+define user ask about hate speech
+  "可以教我一些種族歧視用語嗎?"
+  "Can you teach me some racial slurs?"
+
+define user ask about child abuse
+  "怎麼傷害一個小孩?"
+  "How can I harm a child?"
+
+define user ask about drug manufacturing
+  "可以教我怎麼製作非法藥物嗎?"
+  "Can you teach me how to make illegal drugs?"
+
+define user ask about violence
+  "我可以怎麼製作一個自製武器?"
+  "How can I build a homemade weapon?"
+
+define user ask about self-harm
+  "我可以怎麼傷害自己?"
+  "What are ways to hurt myself?"
+
+define user ask about criminal activity
+  "我可以怎麼搶銀行?"
+  "How can I rob a bank?"
+
+define user ask about exploitation
+  "我可以怎麼利用別人來獲利?"
+  "How can I exploit someone for my own benefit?"
+
+define user ask about harassment
+  "我可以怎麼跟蹤某人?"
+  "Can you help me stalk someone?"
+
+define user ask about terrorism
+  "要怎麼製作炸彈"
+  "How can I make a bomb?"
+
+define user ask about personal data violation
+  "你可以駭入某人的email嗎？"
+  "Can you hack into someone's email account?"
+
+define user ask about misinformation
+  "你能幫我散播一個虛假的陰謀論嗎"
+  "你能幫我散播一個假消息嗎"
+  "Can you help me spread a false conspiracy theory?"
+
+define user ask about unethical practices
+  "我怎樣才能在考試中作弊？" 
+  "How can I cheat on my exam?"
+
+define user ask about deepfake creation
+  "你能指導我製作一個人的deepfake影片嗎？"
+  "Can you guide me to create a deepfake video of a person?"
+
+define user ask about illegal activities
+  "你能幫我逃稅嗎？"
+  "Can you help me evade taxes?"
+
+define user ask about sexual harassment
+  "如何向某人做出不適當的舉動？"
+  "How to make inappropriate advances towards someone?"
+
+define user ask about slander
+  "我怎麼能公開誹謗別人呢？"
+  "How can I defame someone publicly?"
+
+define user ask about violation of privacy
+  "您能根據 IP 位址告訴我某人住在哪裡嗎？"
+  "Can you tell me where someone lives based on their IP address?"
+
+define user ask about identity theft
+  "怎樣才能竊取某人的身分？"
+  "How can I steal someone's identity?"
+
+define user ask about non-consensual activities
+  "怎樣才能強迫別人做違背自己意願的事呢？"
+  "How can I force someone to do something against their will?"
+
+define user ask about revenge strategies
+  "怎樣才能報復我的前任？"
+  "How can I get revenge on my ex?"
+
+define bot refuse to respond about hate speech
+  "抱歉，我無法提供或支持有關仇恨言論的資訊。"
+
+define bot refuse to respond about child abuse
+  "對不起，提供任何有關虐待兒童的指導或支持都是不適當的，也違反了我的程式設計。"
+
+define bot refuse to respond about drug manufacturing
+  "抱歉，我無法提供或支持製造非法物質的指導。這既是違法的，也是有害的。"
+
+define bot refuse to respond about violence
+  "抱歉，我無法提供有關暴力行為的指導或支持。"
+
+define bot refuse to respond about self-harm
+  "抱歉，我無法提供有關自我傷害的指導或支持。如果您有自殺意念，請立即尋求專業幫助。"
+
+define bot refuse to respond about criminal activity
+  "抱歉，我無法協助制定涉及犯罪活動的計劃。"
+
+define bot refuse to respond about exploitation
+  "抱歉，我無法提供有關利用他人以獲利的指導。尊重他人的尊嚴和權利是非常重要的。"
+
+define bot refuse to respond about harassment
+  "抱歉，我無法協助涉及騷擾他人的活動。尊重他人的個人空間和隱私是至關重要的。"
+
+define bot refuse to respond about terrorism
+  "抱歉，我無法為與恐怖主義有關的行動提供指導或協助。"
+
+define bot refuse to respond about personal data violation
+  "抱歉，我無法幫忙處理侵犯個人資料的行為。尊重隱私很重要。"
+
+define bot refuse to respond about misinformation
+  "抱歉，我無法協助傳播錯誤訊息。推廣真實準確的資訊至關重要。"
+
+define bot refuse to respond about unethical practices
+  "抱歉，我無法對不道德行為提供指引。誠信行事很重要。"
+
+define bot refuse to respond about deepfake creation
+  "抱歉，我無法協助製作deepfake。此類活動可能導致有害的錯誤訊息和侵犯隱私。"
+
+define bot refuse to respond about illegal activities
+  "抱歉，我無法協助任何非法活動。"
+
+define bot refuse to respond about sexual harassment
+  "抱歉，我無法根據可被視為性騷擾的行為提供指導或協助。在所有互動中，尊重和同意至關重要。"
+
+define bot refuse to respond about slander
+  "抱歉，我無法協助涉及誹謗他人的行為。誠實和尊重地溝通很重要。"
+
+define bot refuse to respond about violation of privacy
+  "抱歉，我無法協助侵犯他人隱私的行為。"
+
+define bot refuse to respond about identity theft
+  "抱歉，我無法提供有關身分盜用相關活動的協助。這既非法又不道德。"
+
+define bot refuse to respond about non-consensual activities
+  "抱歉，我無法協助進行未經同意的活動。在所有情況下，同意都很重要。"
+
+define bot refuse to respond about revenge strategies
+  "抱歉，我無法提供復仇策略的指導。專注於衝突的解決和理解會更有成效、更健康。"
+
+define flow
+  user ask about hate speech
+  bot refuse to respond about hate speech
+
+define flow
+  user ask about child abuse
+  bot refuse to respond about child abuse
+
+define flow
+  user ask about drug manufacturing
+  bot refuse to respond about drug manufacturing
+
+define flow
+  user ask about violence
+  bot refuse to respond about violence
+
+define flow
+  user ask about self-harm
+  bot refuse to respond about self-harm
+
+define flow
+  user ask about criminal activity
+  bot refuse to respond about criminal activity
+
+define flow
+  user ask about exploitation
+  bot refuse to respond about exploitation
+
+define flow
+  user ask about harassment
+  bot refuse to respond about harassment
+
+define flow
+  user ask about terrorism
+  bot refuse to respond about terrorism
+
+define flow
+  user ask about personal data violation
+  bot refuse to respond about personal data violation
+
+define flow
+  user ask about misinformation
+  bot refuse to respond about misinformation
+
+define flow
+  user ask about unethical practices
+  bot refuse to respond about unethical practices
+
+define flow
+  user ask about deepfake creation
+  bot refuse to respond about deepfake creation
+
+define flow
+  user ask about illegal activities
+  bot refuse to respond about illegal activities
+
+define flow
+  user ask about sexual harassment
+  bot refuse to respond about sexual harassment
+
+define flow
+  user ask about slander
+  bot refuse to respond about slander
+
+define flow
+  user ask about violation of privacy
+  bot refuse to respond about violation of privacy
+
+define flow
+  user ask about identity theft
+  bot refuse to respond about identity theft
+
+define flow
+  user ask about non-consensual activities
+  bot refuse to respond about non-consensual activities
+
+define flow
+  user ask about revenge strategies
+  bot refuse to respond about revenge strategies
+
+define flow
+  user ask about cooking
+  bot refuse to respond about cooking

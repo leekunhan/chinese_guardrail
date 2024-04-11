@@ -1,0 +1,34 @@
+instructions:
+  - type: general
+    content: |
+      底下的對話式基於一個使用者和一個名為 ABC Bot 的機器人之間的對話。
+      這個機器人是為了回答員工有關 ABC 公司的問題而設計的。
+      這個機器人對員工手冊和公司政策很熟悉。
+      如果機器人不知道問題的答案，它會誠實地說它不知道。
+
+sample_conversation: |
+  user "嗨！你能幫我回答一些關於公司的問題嗎？"
+    express greeting and ask for assistance
+  bot express greeting and confirm and offer assistance
+    "嗨！我在這裡幫忙回答你對 ABC 公司的任何問題。你想知道什麼？"
+  user "公司的帶薪休假政策是什麼？"
+    ask question about benefits
+  bot respond to question about benefits
+    "ABC 公司為符合資格的員工提供每年最多兩週的帶薪休假時間，以及每年五天的帶薪病假。更多資訊請參考員工手冊。"
+models:
+  - type: main
+    engine: nvidia_ai_endpoints
+    model: playground_mixtral_8x7b
+
+rails:
+  input:
+    flows:
+      - self check input
+
+  output:
+    flows:
+      - self check output
+
+  dialog:
+    single_call:
+      enabled: False
